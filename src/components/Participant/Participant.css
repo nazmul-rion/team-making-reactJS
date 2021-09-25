@@ -1,0 +1,31 @@
+.card-image{
+    height: 15.25rem;
+    width: 100%;
+}
+.card-participant{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.role{
+    color: rgb(21, 0, 114);
+    font-weight: 600;
+}
+
+.name{
+    color: rgb(19, 19, 19);
+}
+.country{
+    color: rgb(0, 45, 141);
+    font-weight: 600;
+}
+.institute{
+    color: rgb(0, 116, 81);
+    font-weight: 600;
+}
+.rate{
+    color: rgb(192, 1, 1);
+    font-weight: 700;
+}
