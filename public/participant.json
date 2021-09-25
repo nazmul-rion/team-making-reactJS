@@ -1,0 +1,122 @@
+[
+    {
+        "key": 1,
+        "name": "Gennady Korotkevich",
+        "country": "Gomel, Belarus",
+        "institution": "ITMO University",
+        "role": "Legendary Grandmaster",
+        "hireme": 850,
+        "image": "https://userpic.codeforces.org/422/title/50a270ed4a722867.jpg",
+        "profile": "https://codeforces.com/profile/tourist"
+    },
+    {
+        "key": 2,
+        "name": "Mateusz Radecki",
+        "country": "Warsaw, Poland",
+        "institution": "University of Warsaw",
+        "role": "Legendary Grandmaster",
+        "hireme": 730,
+        "image": "https://userpic.codeforces.org/147752/title/13dfa099dea83936.jpg",
+        "profile": "https://codeforces.com/profile/Radewoosh"
+    },
+    {
+        "key": 3,
+        "name": "Neal Wu",
+        "country": "United States",
+        "institution": "USACO",
+        "role": "Legendary Grandmaster",
+        "hireme": 535,
+        "image": "https://userpic.codeforces.org/4239/title/7da766460166350b.jpg",
+        "profile": "https://codeforces.com/profile/neal"
+    },
+    {
+        "key": 4,
+        "name": "David Wärn",
+        "country": "Stockholm, Sweden",
+        "institution": "University of Cambridge",
+        "role": "Legendary Grandmaster",
+        "hireme": 635,
+        "image": "https://userpic.codeforces.org/269676/title/aa305b19c0d3e21d.jpg",
+        "profile": "https://codeforces.com/profile/_h_"
+    },
+    {
+        "key": 5,
+        "name": "Utkarsh Gupta",
+        "country": "Varanasi, India",
+        "institution": "IIT BHU Varanasi",
+        "role": "Grandmaster",
+        "hireme": 337,
+        "image": "https://userpic.codeforces.org/812034/title/d5e417039d1f6e0.jpg",
+        "profile": "https://codeforces.com/profile/HealthyUG"
+    },
+    {
+        "key": 6,
+        "name": "Arghya Pal",
+        "country": "Sylhet, Bangladesh",
+        "institution": "BUET",
+        "role": "Grandmaster",
+        "hireme": 415,
+        "image": "https://userpic.codeforces.org/215556/title/186f90fba18cd338.jpg",
+        "profile": "https://codeforces.com/profile/Arg_007"
+    },
+    {
+        "key": 7,
+        "name": "Shahjalal Shohag",
+        "country": "Dhaka, Bangladesh",
+        "institution": "SUST",
+        "role": "Master",
+        "hireme": 215,
+        "image": "https://userpic.codeforces.org/567252/title/7d0e3b8c175abcdf.jpg",
+        "profile": "https://codeforces.com/profile/YouKn0wWho"
+    },
+    {
+        "key": 8,
+        "name": "Anik Sarker",
+        "country": "Dhaka, Bangladesh",
+        "institution": "Jahangirnagar University",
+        "role": "Candidate Master",
+        "hireme": 165,
+        "image": "https://userpic.codeforces.org/435223/title/57c523155b7faabe.jpg",
+        "profile": "https://codeforces.com/profile/aniks2645"
+    },
+    {
+        "key": 9,
+        "name": "Nayeemul Islam Swad",
+        "country": "Barisal, Bangladesh",
+        "institution": "University of Dhaka",
+        "role": "Expert",
+        "hireme": 126,
+        "image": "https://userpic.codeforces.org/569778/title/56397f7173c8ab95.jpg",
+        "profile": "https://codeforces.com/profile/DrSwad"
+    },
+    {
+        "key": 10,
+        "name": "Ramprosad Gharami",
+        "country": "Dhaka, Bangladesh",
+        "institution": "BSMRSTU",
+        "role": "Specialist",
+        "hireme": 115,
+        "image": "https://userpic.codeforces.org/530591/title/7a1614c0b50f4535.jpg",
+        "profile": "https://codeforces.com/profile/Ramprosad_049"
+    },
+    {
+        "key": 11,
+        "name": "Pavle Martinovic",
+        "country": "Belgrade, Serbia",
+        "institution": "RAF, Belgrade",
+        "role": "Grandmaster",
+        "hireme": 729,
+        "image": "https://userpic.codeforces.org/387314/title/8f0af0dbe1c1ba5.jpg",
+        "profile": "https://codeforces.com/profile/Pajaraja"
+    },
+    {
+        "key": 12,
+        "name": "Bhavik 7e6d83",
+        "country": "Aurangābād, India",
+        "institution": "Pune Institute of Computer Technology",
+        "role": "Expert",
+        "hireme": 529,
+        "image": "https://userpic.codeforces.org/1221203/title/9153803ab0fdf8f0.jpg",
+        "profile": "https://codeforces.com/profile/Zuciso"
+    }
+]
