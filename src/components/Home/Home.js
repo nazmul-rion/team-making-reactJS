@@ -15,15 +15,24 @@ const Home = () => {
     }, []);
 
     const addToCart = (participant) => {
-        const newCart = [...cart, participant];
-        setCart(newCart);
-    }
+
+        const matchKey = cart.find((data) => data.key === participant.key);
+        console.log(matchKey);
+        if (matchKey === undefined) {
+            const newCart = [...cart, participant];
+            setCart(newCart);
+        } else {
+            alert(
+                "You Are Already Added " + '"' + participant.name + '"' + " To The Cart"
+            );
+        }
+    };
 
     return (
-        <div>
+        <div className="mx-5 pb-5">
             <div className="row g-2">
                 <div className="col-lg-9 col-md-12">
-                    <div className="row ps-lg-5 p-md-4 g-4">
+                    <div className="row g-4">
                         <h3 className="text-center">Top Programmers</h3>
                         {
                             participants.map(participant => <Participant
@@ -35,10 +44,9 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-12 px-3">
-                    <div className="row ps-lg-1 p-md-4 g-4">
+                <div className="col-lg-3 col-md-12 ">
+                    <div className="row g-4">
                         <h3 className="text-center">Order Summary</h3>
-                        <hr />
                         <Cart
                             key={cart.key}
                             cart={cart}
