@@ -8,7 +8,9 @@ const Cart = (props) => {
         <div className="ps-4">
             <h5 className="text-center"><b>Total Selected Members:</b> {cart.length}</h5>
             <hr />
-            <div className="row card gy-4 pb-3">
+
+            {/* Cart Items */}
+            <div className="row cart-items card gy-4 pb-3">
                 {
                     cart.map(cartItem => {
                         totalPrice = totalPrice + parseFloat(cartItem.hireme);

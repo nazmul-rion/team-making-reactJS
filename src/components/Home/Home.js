@@ -5,15 +5,19 @@ import Participant from '../Participant/Participant'
 
 const Home = () => {
 
+    // Declare State
     const [participants, setParticipants] = useState([]);
     const [cart, setCart] = useState([]);
 
+    // Fetch Data
     useEffect(() => {
         fetch('./participant.json')
             .then(res => res.json())
             .then(data => setParticipants(data));
     }, []);
 
+
+    // Add to Cart Handler
     const addToCart = (participant) => {
 
         const matchKey = cart.find((data) => data.key === participant.key);
@@ -22,7 +26,7 @@ const Home = () => {
             setCart(newCart);
         } else {
             alert(
-                "You Are Already Added " + participant.name + " To The Cart"
+                "You are already added " + participant.name + " To The Cart"
             );
         }
     };
@@ -30,6 +34,8 @@ const Home = () => {
     return (
         <div className="mx-5 pb-5">
             <div className="row g-2">
+
+                {/* Programmer List */}
                 <div className="col-lg-9 col-md-12">
                     <div className="row g-4">
                         <h3 className="text-center">Top Programmers</h3>
@@ -43,6 +49,8 @@ const Home = () => {
                         }
                     </div>
                 </div>
+
+                {/* Cart Container */}
                 <div className="col-lg-3 col-md-12 ">
                     <div className="row g-4">
                         <h3 className="text-center">Cart</h3>
