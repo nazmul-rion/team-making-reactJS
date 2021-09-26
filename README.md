@@ -1,6 +1,5 @@
 # Team Making Programing Contest
 
-See live
 [click here to visit Team Making Programing Contest] (https://team-making-programming-contest-nazmul-rion.netlify.app/ "Team Making Programing Contest")
 
 ## Purpose of this project
