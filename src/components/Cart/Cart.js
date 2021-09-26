@@ -6,13 +6,12 @@ const Cart = (props) => {
     let totalPrice = 0.00;
     return (
         <div className="ps-4">
-            <h5 className="text-center"><b>Total Order:</b> {cart.length}</h5>
+            <h5 className="text-center"><b>Total Selected Members:</b> {cart.length}</h5>
             <hr />
-            <div className="row  gy-4">
+            <div className="row card gy-4 pb-3">
                 {
                     cart.map(cartItem => {
                         totalPrice = totalPrice + parseFloat(cartItem.hireme);
-                        console.log(totalPrice);
                         return (
                             <div key={cartItem.key} className="col-12">
                                 {

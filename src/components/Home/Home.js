@@ -17,13 +17,12 @@ const Home = () => {
     const addToCart = (participant) => {
 
         const matchKey = cart.find((data) => data.key === participant.key);
-        console.log(matchKey);
         if (matchKey === undefined) {
             const newCart = [...cart, participant];
             setCart(newCart);
         } else {
             alert(
-                "You Are Already Added " + '"' + participant.name + '"' + " To The Cart"
+                "You Are Already Added " + participant.name + " To The Cart"
             );
         }
     };
@@ -46,7 +45,7 @@ const Home = () => {
                 </div>
                 <div className="col-lg-3 col-md-12 ">
                     <div className="row g-4">
-                        <h3 className="text-center">Order Summary</h3>
+                        <h3 className="text-center">Cart</h3>
                         <Cart
                             key={cart.key}
                             cart={cart}
