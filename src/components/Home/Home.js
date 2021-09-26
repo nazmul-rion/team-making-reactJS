@@ -21,7 +21,7 @@ const Home = () => {
 
     return (
         <div>
-            <div className="row g-3">
+            <div className="row g-2">
                 <div className="col-lg-9 col-md-12">
                     <div className="row ps-lg-5 p-md-4 g-4">
                         <h3 className="text-center">Top Programmers</h3>
@@ -36,10 +36,14 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-12 px-3">
-                    <div className="row ps-lg-5 p-md-4 g-4">
+                    <div className="row ps-lg-1 p-md-4 g-4">
                         <h3 className="text-center">Order Summary</h3>
                         <hr />
-                        <Cart cart={cart}></Cart>
+                        <Cart
+                            key={cart.key}
+                            cart={cart}
+                        >
+                        </Cart>
                     </div>
                 </div>
             </div>

@@ -17,8 +17,8 @@ const Participant = (props) => {
                     <p><b>Position: </b> <span className="role">{role}</span></p>
                     <p><b>Hire me: </b><span className="rate"> ${hireme}</span></p>
                     <div className="d-flex flex-column">
-                        <button onClick={() => props.addToCart(props.participant)} className="btn btn-info fw-bold mb-3 me-3"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                        <a className="text-info btn btn-outline-dark text-decoration-none me-3" href={profile} target="_blank"><b>See Profile</b> <i class="fas fa-user-circle"></i></a>
+                        <button onClick={() => props.addToCart(props.participant)} className="btn btn-info fw-bold mb-3 me-3"><i className="fas fa-cart-plus"></i> Add to Cart</button>
+                        <a className="text-info btn btn-outline-dark text-decoration-none me-3" href={profile} target="_blank" rel="noreferrer"><b>See Profile</b> <i className="fas fa-user-circle"></i></a>
                     </div>
                 </div>
             </div>
